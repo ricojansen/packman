@@ -1,0 +1,7 @@
+; Reroute table 
+; Table used by reroute to change address's
+; format : Org|Dst OldAddress NewAddress
+Dst 0:*/*.*    87:*/*.*     Route all mail from zone 0 to zone 87
+Org 87:22000/1 87:100/101	Turn fakenet into node
+Org 0:22000/1  87:100/101	Turn fakenet into node
+Org 87:87/0.1  87:100/101

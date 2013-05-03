@@ -1,0 +1,1 @@
+lha u bak/PackManDIST.lzh mail:bin/packman mail:packman.cfg mail:packman/packman.tab mail:packman/packman.k?l history packman.doc todo readme *.c *.h *makefile*

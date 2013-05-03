@@ -1,0 +1,50 @@
+0.01 
+0.02
+0.03
+0.04
+0.05	various single file versions
+
+0.10	split files into functional modules
+
+0.20	actual rerouting part done (first working version)
+
+0.30	change of seenby lines added
+
+0.40	change of path lines added
+
+0.50	splitof modules parse.c and string.c
+
+0.60	4 dimensional address parser built and changestr in
+		reroutepacket.c	added so seenby and path modification are easier
+
+0.70	origin line modification added
+
+0.80	changed from max 2k message to unlimited (well, if your system does
+		not run out of memory)
+
+0.90	comments added
+
+0.95	Added program identify string plus control against modification of the
+		string. Added stripping of LINEFEED's. Showpkt made member of the
+		bundle. (Showpkt uses a couple of the functions of Reroute)
+
+1.00	First 'public' version. Added a number of kludges reroute now modifies
+		kludges : DESTADDR:, MSGID:, MSGTO:, PATH:, PTH:, REPLY: and SEEN-BY:
+		also modified is the originline and the various address in the packet
+		structure.
+
+1.10	Kludge parser added. Reroute now uses reroute.ksl and reroute.krl to
+		change the kludges (ksl=kludge spec list) (krl=kludge replacement list)
+
+1.11	Name change to PackMan, 2 bugs removed
+
+1.20	Uses configuration file for PACK, UNPACK, FILES, PACKETS, VERBOSE,
+		LOGLEVEL, LOGFILE. Several modifications made to the code, mainly
+		the code concerning the replacestring function. Added "archiver"
+		command line style.
+
+1.30	Added logging. Added Tearline modification, Origin modification
+		(TEARLINE, ORIGIN) Removed bug in config.c's readtab().
+		PACKETS removed, replaced by INBOUND and OUTBOUND keywords.
+		BACKUP keyword added, packman automatically writes packets in
+		this directory, if it is defined.

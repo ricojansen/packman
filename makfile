@@ -1,0 +1,26 @@
+
+DCCOPTS =   -v -2.0 -v
+SRCS    =   gad.c main.c subs.c region.c tplcontrol.c edit.c savec.c save.c load.c
+OBJ     =   gad.o main.o subs.o region.o tplcontrol.o edit.o savec.o save.o load.o
+EXE     =   TplEdit
+LNK     =   $(OBJ) wbmain.o
+PROTOS  =   tpl-protos.h
+
+all     :   sowieso $(PROTOS) $(EXE)
+
+
+$(EXE)  :   $(OBJ)
+    DCC $(LNK) -o %(left) $(DCCOPTS)
+
+$(OBJ)  :   $(SRCS)
+    DCC %(right) -o %(left) -c $(DCCOPTS)
+
+$(PROTOS)   :
+    -delete %(left)
+    makeproto -o %(left) $(SRCS)
+
+sowieso :
+#   -setenv DCCOPTS
+#   "-E ram:errorfile"
+#    -ctags $(SRCS)
+

@@ -1,0 +1,2124 @@
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Parse error invalid address
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 00000001.pkt
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 00000001.pkt
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 00000001.pkt
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 00000001.pkt
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 00000001.pkt
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+Address modified from : 0:400/0.0 to 87:400/0.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 400/500 -> Modify
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 00000003.pkt
+
+Processing : 00000002.pkt
+
+Processing : 00000001.pkt
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 01111016.pkt
+Address modified from : 0:87/0.0 to 87:87/0.0
+Kludge  : PID: GCChost v3.5 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+Address modified from : 0:87/0.0 to 87:87/0.0
+Kludge  : PID: GCChost v3.5 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+Address modified from : 0:87/0.0 to 87:87/0.0
+Kludge  : PID: GCChost v3.5 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 0112597b.pkt
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : EID:bd1a 179b42c2 -> Remove
+Kludge  : MSGID: 87:400/200 295b45d4 -> Modify
+Kludge  : REPLY: 87:400/900 295fc452 -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : EID:bd1a 179b42c2 -> Remove
+Kludge  : MSGID: 87:400/200 295b45d4 -> Modify
+Kludge  : REPLY: 87:400/900 295fc452 -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : EID:ef27 179b8034 -> Remove
+Kludge  : MSGID: 87:400/200 295bb146 -> Modify
+Kludge  : REPLY: 87:400/0 29608b3c -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : EID:ef27 179b8034 -> Remove
+Kludge  : MSGID: 87:400/200 295bb146 -> Modify
+Kludge  : REPLY: 87:400/0 29608b3c -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 01111016.pkt
+Address modified from : 0:87/0.0 to 87:87/0.0
+Kludge  : PID: GCChost v3.5 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+Address modified from : 0:87/0.0 to 87:87/0.0
+Kludge  : PID: GCChost v3.5 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+Address modified from : 0:87/0.0 to 87:87/0.0
+Kludge  : PID: GCChost v3.5 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 0112597b.pkt
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : EID:bd1a 179b42c2 -> Remove
+Kludge  : MSGID: 87:400/200 295b45d4 -> Modify
+Kludge  : REPLY: 87:400/900 295fc452 -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : EID:bd1a 179b42c2 -> Remove
+Kludge  : MSGID: 87:400/200 295b45d4 -> Modify
+Kludge  : REPLY: 87:400/900 295fc452 -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : EID:ef27 179b8034 -> Remove
+Kludge  : MSGID: 87:400/200 295bb146 -> Modify
+Kludge  : REPLY: 87:400/0 29608b3c -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : EID:ef27 179b8034 -> Remove
+Kludge  : MSGID: 87:400/200 295bb146 -> Modify
+Kludge  : REPLY: 87:400/0 29608b3c -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+
+PackMan 1.30
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:87/0.1 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:22000/1.0 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 0112597b.pkt
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : MSGID: 87:400/200 295b45d4 -> Modify
+Kludge  : REPLY: 87:400/900 295fc452 -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : MSGID: 87:400/200 295b45d4 -> Modify
+Kludge  : REPLY: 87:400/900 295fc452 -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : MSGID: 87:400/200 295bb146 -> Modify
+Kludge  : REPLY: 87:400/0 29608b3c -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+Address modified from : 0:400/500.0 to 87:400/500.0
+Kludge  : MSGID: 87:400/200 295bb146 -> Modify
+Kludge  : REPLY: 87:400/0 29608b3c -> Modify
+Kludge  : PATH: 400/200 100/200 87/0 -> Modify
+
+PackMan 1.30 at Sat Jun 27 16:24:46 1992
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:22000/1.0 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:87/0.1 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 01111016.pkt
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:100/101.0 to 87:100/101.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:100/101.0 to 87:100/101.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:100/101.0 to 87:100/101.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+
+PackMan 1.30 at Sat Jun 27 16:28:34 1992
+Configuration :
+PACK     : <lz u>
+UNPACK   : <lz x>
+FILES    : <sys:User/c/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:22000/1.0 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:87/0.1 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <>
+KLUDGE : <I51>
+SPEC   : <>
+REPL   : <>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <>
+
+
+Processing : 01111016.pkt
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:100/101.0 to 87:100/101.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:100/101.0 to 87:100/101.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:87/0.0 to 87:87/0.0
+Address modified from : 0:100/101.0 to 87:100/101.0
+Kludge  : PID: PackMan 1.20 -> Modify
+Kludge  : PATH: 100/101 -> Modify
+
+packman 1.30 at Wed Sep 10 23:31:40 1997
+Configuration :
+PACK     : <lha a>
+UNPACK   : <lha x>
+FILES    : </root/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:22000/1.0 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:87/0.1 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <(null)>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <(null)>
+KLUDGE : <I51>
+SPEC   : <(null)>
+REPL   : <(null)>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <(null)>
+
+
+packman 1.30 at Wed Sep 10 23:32:01 1997
+Configuration :
+PACK     : <lha a>
+UNPACK   : <lha x>
+FILES    : </root/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:22000/1.0 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:87/0.1 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <(null)>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <(null)>
+KLUDGE : <I51>
+SPEC   : <(null)>
+REPL   : <(null)>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <(null)>
+
+
+Processing : 01111016.PKT
+Can't open file out/01111016.PKT
+
+packman 1.30 at Wed Sep 10 23:33:27 1997
+Configuration :
+PACK     : <lha a>
+UNPACK   : <lha x>
+FILES    : </root/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:22000/1.0 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:87/0.1 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <(null)>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <(null)>
+KLUDGE : <I51>
+SPEC   : <(null)>
+REPL   : <(null)>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <(null)>
+
+
+Processing : 00000001.pkt
+Can't open file out/00000001.pkt
+
+packman 1.30 at Wed Sep 10 23:34:42 1997
+Configuration :
+PACK     : <lha a>
+UNPACK   : <lha x>
+FILES    : </root/fido/cfg/>
+BACKUP   : <back/>
+VERBOSE  : <2>
+LOGLEVEL : <3>
+LOGFILE  : <packtest.log>
+OUTBOUND : <out/>
+INBOUND  : <in/>
+
+TEARLINE : <PackMan 1.30>
+ORIGIN   : <!Disaster!Area!>
+
+Orginating Address Rerouting :
+87:22000/1.0 -> 87:100/101.0
+0:22000/1.0 -> 87:100/101.0
+87:87/0.1 -> 87:100/101.0
+Destination Address Rerouting :
+0:-1/-1.-1 -> 87:-1/-1.-1
+
+Kludge list
+KLUDGE : <XH3-75>
+SPEC   : <(null)>
+REPL   : <NIL>
+KLUDGE : <XID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <VIA:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TZ>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TOPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <TCL2:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <TCL1:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <SN:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <RID:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <RFD:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <REPLY:>
+SPEC   : < %1a %ks>
+REPL   : < %d blahto>
+KLUDGE : <REALNAME:>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <PID:>
+SPEC   : < %s>
+REPL   : < PackMan 1.20>
+KLUDGE : <PTH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <PATH:>
+SPEC   : < %0a>
+REPL   : < %o>
+KLUDGE : <MSGTO:>
+SPEC   : < %1a>
+REPL   : < %d>
+KLUDGE : <MSGID:>
+SPEC   : < %1a %ks>
+REPL   : < %o blah>
+KLUDGE : <INTL>
+SPEC   : < %1a %1a>
+REPL   : <(null)>
+KLUDGE : <I51>
+SPEC   : <(null)>
+REPL   : <(null)>
+KLUDGE : <GROUP:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <GATECHK:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <FMPT>
+SPEC   : < %n>
+REPL   : <NIL>
+KLUDGE : <FLAGS>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <EID:>
+SPEC   : <%s>
+REPL   : <NIL>
+KLUDGE : <DOMAIN>
+SPEC   : < %s>
+REPL   : <(null)>
+KLUDGE : <DESTADDR:>
+SPEC   : <%1a>
+REPL   : <%d>
+KLUDGE : <CHRS:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CHRC:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CHARSET:>
+SPEC   : <%s>
+REPL   : <(null)>
+KLUDGE : <CC:>
+SPEC   : < %s>
+REPL   : <(null)>
+
+
+Processing : 00000001.pkt

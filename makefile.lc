@@ -1,0 +1,32 @@
+CC = lc
+AS = asm
+LINK = blink
+LINKFLAGS = lib lib:lc.lib lib:amiga.lib
+#CFLAGS = -d4
+CFLAGS =
+#CFLAGS = -DUSE
+
+ROBJS = packman.o cleanup.o config.o kludge.o misc.o \
+		pack.o parseaddress.o io.o modifypacket.o \
+        changeaddr.o change.o
+
+SOBJS = showpkt.o io.o misc.o printpacket.o config.o parseaddress.o
+
+COBJS = check.o
+
+all : packman check
+
+packman : $(ROBJS)
+		$(LINK) lib:c.o $(ROBJS) to $@ $(LINKFLAGS)
+
+check : $(COBJS)
+		$(LINK) lib:c.o $(COBJS) to $@ $(LINKFLAGS)
+
+showpkt : $(SOBJS)
+		$(LINK) lib:c.o $(SOBJS) to $@ $(LINKFLAGS)
+
+$(ROBJS) : packman.h fido.h
+
+$(SOBJS) : packman.h fido.h
+
+$(COBJS) : 

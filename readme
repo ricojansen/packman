@@ -1,0 +1,15 @@
+README for packman 1.30a
+
+This is an alpha release of packman !
+
+If correct the archive contained the following files :
+
+- readme        - This file
+- packman       - The executable
+- packman.doc   - The manual (ahem)
+- packman.cfg   - Example configuration file
+- packman.ksl   - The kludge specification list
+- packman.krl   - The kludge replacement list
+- packman.tab   - The address rerouting table
+- todo          - Short file about things to come
+- history       - History of packman

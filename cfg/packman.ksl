@@ -1,0 +1,64 @@
+; Packman.ksl Kludge Specification List for Packman
+; Contains the format of kludges
+;
+; Kludge with list of who also got this message
+CC: %s
+; Attempt to solve charset problems by identifing a charset for this message
+CHARSET:%s
+; Font change kludge
+CHRC:%s
+; Alternative of CHARSET kludge
+CHRS:%s
+; Not known looks like the address of where the message must goto
+DESTADDR:%1a
+; Kludge for solving of crossing domain boundaries
+DOMAIN %s
+; Used for dupe checking and reply linking (considered garbage by now)
+EID:%s
+; Special netmail kludge for extra attributes (used by FrontDoor, D'Bridge and
+; Imail)
+FLAGS %s
+; Tells point number of originator
+FMPT %n
+; Unknown , some sort of gating kludge
+GATECHK:%s
+; Group kludge sort of AREA kludge
+GROUP:%s
+; This kludge indicates that the message conforms to the ISO 8859-1 (Latin-1)
+; characterset
+I51
+; Kludge for crossing zone boundaries
+INTL %1a %1a
+; Unique identification of message
+MSGID: %1a %ks
+; Not known looks like the address of where the message must goto
+MSGTO: %1a
+; List of nodes that the message traveled through (very handy)
+PATH: %0a
+; 4D version of PATH
+PTH: %0a
+; ID of generator of message
+PID: %s
+; Realname of message writer
+REALNAME: %s
+; MSGID counterpart when replying to a message the MSGID: is made REPLY:
+REPLY: %1a %ks
+; Unknown EID like kludge
+RFD: %s
+; Same
+RID: %s
+; Serial number inserted by the Dutchie message editor
+SN: %s
+; Obsolete hex string for dupe/reply checking
+TCL1: %s
+TCL2: %s
+; Tells the destination point of the message (netmail only)
+TOPT %n
+; Time to add to header time to get UTC (Universal Time Coordinated)
+TZ %s
+; Routed Netmail Messsage gets a VIA for each node it passed
+VIA: %s
+; Unknown kludge like EID
+XID:%s
+; Strange RA kludge
+XH3-75

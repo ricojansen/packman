@@ -1,0 +1,161 @@
+Packman.doc : An attempt to a manual for PackMan 1.30a 
+
+PackMan (Packet Manipulator) is a program the modify packets to suit
+ones needs. WARNING : this is still an alpa release !
+
+Commandline :
+
+The commandline of packman is simple it looks exactly as most archivers.
+The first parameter is either 'a' or 'x' meaning adding or extracting. The
+second parameter is the archive to be used. In case of adding the other parameters
+are interpreted as packets.
+
+Format packman.cfg :
+
+Currently there are 10 configuration parameters :
+
+PACK	 - Name and parameters of the archiver to be used for adding packets
+UNPACK	 - Name and parameters of the archiver to be used for extracting packets
+FILES	 - Directory where the packman files can be found (must end with / or :)
+INBOUND  - Directory where the archive for extraction is located
+OUTBOUND - Directory where the archive for the packets will come
+VERBOSE	 - A number indicating how much text is printed on the screen 
+LOGLEVEL - A number indicating how much text goes into the logfile
+LOGFILE	 - Name of logfile
+TEARLINE - Name of tearline
+ORIGIN   - Origin line
+
+1. VERBOSE and LOGLEVEL number
+
+Explanation of VERBOSE and LOGLEVEL number. A higher number includes all things
+from the lower ones.
+
+0 : Silent, return code only
+1 : Error messages
+2 : Some messages (i.e. modification messages)
+3 : Information (i.e. Configuration)
+4 : Babble (i.e. Shows all the names of the functions called)
+
+2. Packman.tab - The routing table
+
+Format packman.tab :
+
+packman.tab has the following format:
+
+1 Empty lines are ignored
+2 Lines beginning with ';' are ignored
+3 Lines beginning with "org " are placed in the orginating replacement list
+4 Lines beginning with "dst " are placed in the destination replacement list
+5 The rest of lines type 3 4 must be 2 valid fidonet addresses (4 dimensional)
+  seperated by a space or tab, the rest of the line is ignored, the first address
+  is replaced by the second
+6 Other lines give error messages
+
+An address may contain a * indicating that any number will do, if the
+* is also in the replacement address the number of the matched original
+address will be kept.
+
+Example :
+
+dst 2:300/210  2:400/300  This reroutes to another net
+org 2:321/33.1 2:312/4.0  This transforms a point into a node
+org 0:*/*.*    4:*/*.*    This routes from zone 0 to zone 4 (keeping the other fields)
+dst *:*/*.*    2:100/3.0  All mail will go to zone 2 net 100 node 3
+
+3. Kludges, The .ksl and .krl files
+
+The '.ksl' and '.krl' files are used to change and remove kludges. The '.ksl'
+means 'kludge specification list' and '.krl' 'kludge replacement list'
+
+3.1 Kludges, the kludge specification list.
+
+Kludge specification 'language' :
+
+The format of a kludge specification is as follows :
+
+A string followed by a colon,a space or a NEWLINE is taken as the kludge.
+After that a format specification follows. This has the following format
+
+- All characters except NEWLINE and % are taken literally
+- NEWLINE means the end of the specification.
+- % introduces a special data type this has the following format
+
+- %[k]s a string of data (this will run upto the CARRIAGERETURN)
+- %[k]% a %
+- %[k]<num>a An address (seperators are any non-number characters)
+- %[k]<num>w A word     (seperators are spaces)
+- %[k]<num>n A number   (seperators are non-number characters)
+
+- <num> is the number of times the data occurs seperated by the seperator
+        characters. a <num> value of 0 means unlimited
+- A k in the specification means that the data will be merely skipped and not
+  replaced. (!!! The replacement specification needs a dummy data entry !!!)
+
+Examples:
+
+PID: %ks
+Keeps the string. (the entire kludge)
+MSGID: %1a %ks
+Replace the address and keep the rest (the space counts!!!)
+PATH: %0a
+An unlimited number of addresses (terminated with a CARRIAGERETURN)
+MSGID: %k1a %s
+Keep the address but replace the rest
+
+Format '.ksl' file
+Lines beginning with ';' are ignored
+A valid specification terminated by NEWLINE (repeat as often as necessary)
+
+Example :
+
+; Program id
+PID: %s
+; Message id
+MSGID: %1a %s
+; Path
+PATH: %0a
+
+3.2 Kludges, The kludge replacement list.
+
+Kludge replacement 'language' :
+
+The kludge replacement 'language' is a lot simpler, it only has the following
+two possibilities (besides the normal data part) namely :
+
+%o get address from originating list
+%d get address from destination list
+
+This is only used when an address specification is found. An address
+specification needs either one of this specifications.
+
+Examples
+
+PID: MyProgram
+Changes the original string into MyProgram
+PATH: %o
+Get the addresses for path replacement from the originating list
+
+Format packman.krl :
+
+Lines beginning with ';' are ignored.
+A valid replacement terminated with a NEWLINE (repeat as often as necessary)
+If a kludge without specification is found the kludge will be removed from
+the packet
+
+Example
+
+; Change PID to MyProgram
+PID: MyProgram
+; Feeds MSGID: address through destination rerouter
+MSGID: %d Blah
+; Feeds PATH addres through origin rerouter
+PATH: %o
+; Removes EID: kludge. 
+EID:
+
+Comments and other (e)mail should go to :
+
+Rico Jansen, 
+HIN 87:100/101 or 
+NLA 14:100/601.2 or
+The Black Hole BBS 030-940197
